@@ -4,6 +4,11 @@
 
 Este proyecto Spring Boot fue desarrollado por Camilo Eduardo Muñoz Duque (Código: 201920630). A continuación, se detallan los controladores disponibles en la aplicación:
 
+### Puerto y Swagger
+
+El servicio está configurado para ejecutarse en el puerto `7979`. La documentación Swagger se encuentra disponible en `/docs`, proporcionando información detallada sobre todos los endpoints y operaciones disponibles en este proyecto.
+
+
 ### Controladores
 
 #### CustomerController
@@ -50,14 +55,6 @@ Este proyecto Spring Boot fue desarrollado por Camilo Eduardo Muñoz Duque (Cód
     
   - **GET `/stock/{productId}/{amount}`**  
     Encuentra el stock de un producto por su ID y cantidad.
-
-### Puerto y Swagger
-
-El servicio está configurado para ejecutarse en el puerto `7979`. La documentación Swagger se encuentra disponible en `/docs`, proporcionando información detallada sobre todos los endpoints y operaciones disponibles en este proyecto.
-
-### Notas Adicionales
-
-Este proyecto utiliza el manejo de excepciones para responder con mensajes de error HTTP adecuados en caso de situaciones excepcionales. Además, se emplea el patrón de inyección de dependencias mediante anotaciones `@RequiredArgsConstructor`, facilitando la gestión de los servicios requeridos en cada controlador.
 
 Para ejecutar el proyecto, asegúrese de tener todas las dependencias necesarias y luego inicie la aplicación Spring Boot. Una vez en ejecución, puede acceder a la documentación Swagger para explorar y probar los diferentes endpoints disponibles.
 
