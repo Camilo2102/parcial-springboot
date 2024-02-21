@@ -2,7 +2,7 @@
 
 ## Proyecto Spring Boot
 
-Este proyecto Spring Boot fue desarrollado por Camilo Eduardo Muñoz Duque (Código: 201920630). A continuación, se detallan los controladores disponibles en la aplicación:
+Este proyecto Spring Boot fue desarrollado por Camilo Eduardo Muñoz Duque (Código: 201920630).
 
 ### Puerto y Swagger
 
